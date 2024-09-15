@@ -152,6 +152,7 @@ body {
   width: 551px;
   height: 49px;
   margin: 0 auto;
+  margin-bottom: 10px;
   background-image: url(../img/store-bg.webp);
   background-size: cover;
   background-position: center;
@@ -175,4 +176,100 @@ body {
 .store a img {
   width: 132px;
   height: 41px;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+}
+.hero .side {
+  margin-right: 10px;
+  width: 311px;
+  height: 573px;
+  background-image: url(../img/phone-mockup.webp);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.hero .side h3 {
+  color: #004c61;
+  font-size: 2.8rem;
+  font-weight: normal;
+  text-shadow: -2px -2px 2px #00fffc, 2px -2px 1px #00fffc, -2px 2px 1px #00fffc, 2px 2px 1px #00fffc;
+  position: absolute;
+  top: 43px;
+  left: 65px;
+}
+.hero .side form {
+  margin-top: 110px;
+  margin-left: -10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.hero .side form label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.hero .side form label span {
+  margin-left: 15px;
+  color: #fff;
+  text-shadow: -2px -2px 2px #1e3756, 2px -2px 1px #1e3756, -2px 2px 1px #1e3756, 2px 2px 1px #1e3756;
+}
+.hero .side form label input {
+  background: none;
+  border: none;
+  background-image: url(../img/input-bg.webp);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 248px;
+  height: 56px;
+  color: #7f7f99;
+}
+.hero .side form .info-auth {
+  margin-top: 20px;
+}
+.hero .side form .info-auth p {
+  color: #fff;
+  line-height: 1.2;
+  text-shadow: -2px -2px 4px #190b5a, 2px -2px 4px #190b5a, -2px 2px 4px #190b5a, 2px 2px 4px #190b5a;
+  text-align: center;
+  padding: 0 40px;
+}
+.hero .side form .info-auth img {
+  width: 216px;
+  height: 54px;
+  margin-top: 10px;
+  margin-left: 50px;
+  border: 2px solid #ccc;
+}
+.hero .side form button {
+  background-image: url(../img/submit-btn-bg.webp);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 216px;
+  height: 63px;
+  color: #004c61;
+  font-size: 2.8rem;
+  font-weight: normal;
+  text-shadow: -2px -2px 2px #00fffc, 2px -2px 1px #00fffc, -2px 2px 1px #00fffc, 2px 2px 1px #00fffc;
+  margin-top: 35px;
+}
+.hero .content .premios img {
+  width: 438px;
+  height: 290px;
+}
+.hero .content .video {
+  margin-top: -12px;
+}
+.hero .content .video img {
+  width: 438px;
+  height: 287px;
 }/*# sourceMappingURL=style.css.map */
