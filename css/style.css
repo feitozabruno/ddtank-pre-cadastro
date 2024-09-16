@@ -224,6 +224,14 @@ body {
   color: #fff;
   text-shadow: -2px -2px 2px #1e3756, 2px -2px 1px #1e3756, -2px 2px 1px #1e3756, 2px 2px 1px #1e3756;
 }
+.hero .side form label input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.hero .side form label input[type=number] {
+  -moz-appearance: textfield;
+  -webkit-appearance: textfield;
+          appearance: textfield;
+}
 .hero .side form label input {
   background: none;
   border: none;
