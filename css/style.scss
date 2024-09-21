@@ -55,7 +55,7 @@ body {
   margin: 0 auto;
   display: block;
 
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .nav {
@@ -420,11 +420,12 @@ body {
   }
 
   .desktop {
-    display: none;
+    display: block;
+    transform: scale(1);
   }
 
   .mobile {
-    display: block;
+    display: none;
 
     header {
       width: 90vw;

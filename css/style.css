@@ -53,7 +53,7 @@ body {
   width: 800px;
   margin: 0 auto;
   display: block;
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .nav {
@@ -334,10 +334,11 @@ body {
     background-repeat: no-repeat;
   }
   .desktop {
-    display: none;
+    display: block;
+    transform: scale(1);
   }
   .mobile {
-    display: block;
+    display: none;
   }
   .mobile header {
     width: 90vw;
