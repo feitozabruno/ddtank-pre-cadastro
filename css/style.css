@@ -49,10 +49,11 @@ body {
   background-repeat: no-repeat;
 }
 
-.main {
+.desktop {
   width: 800px;
   margin: 0 auto;
   display: block;
+  transform: scale(1.1);
 }
 
 .nav {
@@ -332,7 +333,7 @@ body {
     background-position: top;
     background-repeat: no-repeat;
   }
-  .main {
+  .desktop {
     display: none;
   }
   .mobile {
