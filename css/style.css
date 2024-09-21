@@ -328,6 +328,7 @@ body {
   body {
     background-image: url(../img/bg-mobile.webp);
     background-size: cover;
+    background-attachment: fixed;
     background-position: top;
     background-repeat: no-repeat;
   }
@@ -574,7 +575,7 @@ body {
     filter: brightness(1.1);
   }
   .mobile .info-mobile {
-    width: calc(100vw - 17px);
+    width: 100vw;
     height: 12.52vw;
     margin: 0 auto;
     background-image: url(../img/info-mobile-bg.webp);
