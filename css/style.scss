@@ -420,12 +420,11 @@ body {
   }
 
   .desktop {
-    display: block;
-    transform: scale(1);
+    display: none;
   }
 
   .mobile {
-    display: none;
+    display: block;
 
     header {
       width: 90vw;

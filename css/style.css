@@ -334,11 +334,10 @@ body {
     background-repeat: no-repeat;
   }
   .desktop {
-    display: block;
-    transform: scale(1);
+    display: none;
   }
   .mobile {
-    display: none;
+    display: block;
   }
   .mobile header {
     width: 90vw;
