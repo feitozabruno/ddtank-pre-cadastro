@@ -567,7 +567,7 @@ body {
     font-size: 3.5vw;
     font-weight: normal;
     text-shadow: -2px -2px 2px #00fffc, 2px -2px 1px #00fffc, -2px 2px 1px #00fffc, 2px 2px 1px #00fffc;
-    margin-top: 2.38vw;
+    margin-top: 1.5vw;
     transition: 300ms;
   }
   .mobile .tablet form button:hover {
@@ -634,6 +634,7 @@ body {
     height: 58.7vw;
     margin: 0 auto;
     margin-top: -2px;
+    margin-bottom: 20px;
     background-image: url(../img/video-mobile-bg.webp);
     background-size: contain;
     background-position: center;
