@@ -365,7 +365,7 @@ body {
       width: 438px;
       height: 290px;
 
-      background-image: url(../img/premios.webp);
+      background-image: url(../img/premios-desktop-bg.webp);
       background-size: contain;
       background-position: center;
       background-repeat: no-repeat;
@@ -383,6 +383,46 @@ body {
 
         span {
           color: #80f208;
+        }
+      }
+
+      div.itens {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 4px;
+
+        padding-left: 20px;
+        padding-right: 20px;
+
+        .item {
+          position: relative;
+          display: inline-block;
+
+          transition: 300ms;
+
+          &:hover {
+            transform: scale(1.1);
+            filter: brightness(1.5);
+          }
+
+          img {
+            width: 50px;
+            height: 54px;
+            margin: 1px;
+
+            cursor: pointer;
+          }
+
+          span {
+            position: absolute;
+            right: 6px;
+            bottom: 6px;
+
+            color: #fff;
+            text-shadow: -2px -2px 2px #061a3e, 2px -2px 1px #061a3e,
+              -2px 2px 1px #061a3e, 2px 2px 1px #061a3e;
+          }
         }
       }
     }
@@ -816,6 +856,46 @@ body {
 
         span {
           color: #80f208;
+        }
+      }
+
+      div.itens {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 5px;
+
+        padding-left: 1.88vw;
+        padding-right: 1.88vw;
+
+        .item {
+          position: relative;
+          display: inline-block;
+
+          transition: 300ms;
+
+          &:hover {
+            transform: scale(1.1);
+            filter: brightness(1.5);
+          }
+
+          img {
+            width: 10.263vw;
+            height: 11.264vw;
+            margin: 2px;
+            cursor: pointer;
+          }
+
+          span {
+            position: absolute;
+            right: 7px;
+            bottom: 7px;
+
+            color: #fff;
+            font-size: 2.5vw;
+            text-shadow: -2px -2px 2px #061a3e, 2px -2px 2px #061a3e,
+              -2px 2px 2px #061a3e, 2px 2px 2px #061a3e;
+          }
         }
       }
     }

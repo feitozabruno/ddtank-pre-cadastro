@@ -291,7 +291,7 @@ body {
 .hero .content .premios {
   width: 438px;
   height: 290px;
-  background-image: url(../img/premios.webp);
+  background-image: url(../img/premios-desktop-bg.webp);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -306,6 +306,36 @@ body {
 }
 .hero .content .premios p span {
   color: #80f208;
+}
+.hero .content .premios div.itens {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 4px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.hero .content .premios div.itens .item {
+  position: relative;
+  display: inline-block;
+  transition: 300ms;
+}
+.hero .content .premios div.itens .item:hover {
+  transform: scale(1.1);
+  filter: brightness(1.5);
+}
+.hero .content .premios div.itens .item img {
+  width: 50px;
+  height: 54px;
+  margin: 1px;
+  cursor: pointer;
+}
+.hero .content .premios div.itens .item span {
+  position: absolute;
+  right: 6px;
+  bottom: 6px;
+  color: #fff;
+  text-shadow: -2px -2px 2px #061a3e, 2px -2px 1px #061a3e, -2px 2px 1px #061a3e, 2px 2px 1px #061a3e;
 }
 .hero .content .video {
   margin-top: -11px;
@@ -629,6 +659,37 @@ body {
   }
   .mobile .premios-mobile p span {
     color: #80f208;
+  }
+  .mobile .premios-mobile div.itens {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 5px;
+    padding-left: 1.88vw;
+    padding-right: 1.88vw;
+  }
+  .mobile .premios-mobile div.itens .item {
+    position: relative;
+    display: inline-block;
+    transition: 300ms;
+  }
+  .mobile .premios-mobile div.itens .item:hover {
+    transform: scale(1.1);
+    filter: brightness(1.5);
+  }
+  .mobile .premios-mobile div.itens .item img {
+    width: 10.263vw;
+    height: 11.264vw;
+    margin: 2px;
+    cursor: pointer;
+  }
+  .mobile .premios-mobile div.itens .item span {
+    position: absolute;
+    right: 7px;
+    bottom: 7px;
+    color: #fff;
+    font-size: 2.5vw;
+    text-shadow: -2px -2px 2px #061a3e, 2px -2px 2px #061a3e, -2px 2px 2px #061a3e, 2px 2px 2px #061a3e;
   }
   .mobile .video-mobile {
     width: 90vw;
